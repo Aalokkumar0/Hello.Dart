@@ -33,14 +33,24 @@ import 'dart:io';
   print("is = $sum");
 } */
 
-void main() {
+/*void main() {
   stdout.write("enter 1st no:");
-  int num1 = int.parse(stdin.readLineSync()!);
+  double num1 = double.parse(stdin.readLineSync()!);
   stdout.write("enter 2nd no:");
 
-  int num2 = int.parse(stdin.readLineSync()!);
-  int div = num1 % num2;
+  double num2 = double.parse(stdin.readLineSync()!);
+  double div = num1 / num2;
 
-  print("the sum of $num1 % $num2");
+  print("the division of $num1 / $num2");
   print("is = $div");
+}*/
+
+void main() {
+  stdout.write("Enter first number: ");
+  double num1 = double.parse(stdin.readLineSync()!);
+
+  stdout.write("enter second value:");
+  double num2 = double.parse(stdin.readLineSync()!);
+  double percentage = (num1 / num2) * 100;
+  print("The percentage of $num1 out of $num2 is $percentage%");
 }
