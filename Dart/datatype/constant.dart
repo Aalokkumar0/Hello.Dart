@@ -15,5 +15,5 @@ import 'dart:io';
 void main() {
   stdout.write("enter yoour value:");
   int num = int.parse(stdin.readLineSync()!);
-  print(num.isEven ? "the num is Even " : "Otherwise odd");
+  print(num.isEven ? "the num is Even " : "it is odd");
 }
