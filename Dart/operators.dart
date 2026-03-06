@@ -45,8 +45,6 @@ void main() {
 }*/
 
 // use the string interpolation in Dart
-import 'dart:io';
-
 /* void main() {
   stdout.write("enter your name:");
   String name = stdin.readLineSync()!;

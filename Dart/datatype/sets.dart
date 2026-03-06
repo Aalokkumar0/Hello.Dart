@@ -1,4 +1,3 @@
-import 'dart:collection';
 
 class TestSet {
   // A set is an unordered collection of unique items.
