@@ -71,7 +71,4 @@ void main(){
 //check value in list
  print(animals.contains("Dogs"));
 
-
-
-
 }
