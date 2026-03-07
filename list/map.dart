@@ -41,5 +41,4 @@ void main (){
     print(collegeStudent["name"]);
     print(collegeStudent["Roll number"]);
 
-
 }

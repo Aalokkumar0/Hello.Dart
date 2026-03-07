@@ -60,7 +60,7 @@ void main(){
 
   List <int> num = [5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60];
   
-  num.removeWhere((item) => item.bitLength == 7);
+  num.removeWhere((item) => item <= 7);
   print(num);
 
   // length 
