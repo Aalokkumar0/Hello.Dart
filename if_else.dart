@@ -20,4 +20,16 @@ void main(){
 
   String result = (age < 18) ? "you are not able to give vote" : "yes you are";
   print(result);
-}
+
+  int num1 = 23;
+  int num2 = 33;
+
+  int resultt = (num1 < num2) ? num1 : num2 ;
+  print(resultt);
+
+  print(num1>num2 ? "it is $num1":"its not$num2");
+
+  int A = 57;
+  print(A%2 == 0 ? "it is even":"it is odd");
+  
+  }
