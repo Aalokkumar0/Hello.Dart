@@ -20,5 +20,4 @@ void main(){
 
   String result = (age < 18) ? "you are not able to give vote" : "yes you are";
   print(result);
-
 }
