@@ -18,5 +18,10 @@ void main(){
   for (int i = 0 ; i < 9+1 ; i++){
     print(numbers[i]);
   }
+  
+
+  for (int j = 1 ; j < 10 ; j++){
+    print(j*5);
+  }
 
 }
