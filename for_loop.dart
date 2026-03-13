@@ -23,5 +23,4 @@ void main(){
   for (int j = 1 ; j < 10 ; j++){
     print(j*5);
   }
-
-}
+} 
